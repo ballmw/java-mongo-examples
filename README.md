@@ -56,7 +56,7 @@ Working with Mongo and Java
 ##More Updating
 *   $ operator for arrays
 *   upserts (insert and update at the same time)
-        
+
         db.things.update( { b:'d' }, { $inc: { count:1 } }, true );
         db.things.update( { b:'d' }, { $inc: { count:1 } }, true );
 
