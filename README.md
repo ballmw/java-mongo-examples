@@ -5,8 +5,7 @@ Working with Mongo and Java
 *  "hu-mongo-us"
 *  open source
 *  C++
-*  Document oriented storage
-**  BSON
+*  Document oriented storage (BSON)
 *  easy replication
 *  auto sharding
 *  more
@@ -18,7 +17,7 @@ Working with Mongo and Java
 *  Windows on your own
 
 ##Running
-**  mongod ##dbpath ~/data/db
+*  mongod ##dbpath ~/data/db
 
 ##References
 [mongodb.org](http://docs.mongodb.org/manual/applications/)
@@ -57,8 +56,8 @@ Working with Mongo and Java
 ##More Updating
 *  $ operator for arrays
 *  upserts (insert and update at the same time)
-**  db.things.update( { b:'d' }, { $inc: { count:1 } }, true );
-**  db.things.update( { b:'d' }, { $inc: { count:1 } }, true );
+        db.things.update( { b:'d' }, { $inc: { count:1 } }, true );
+        db.things.update( { b:'d' }, { $inc: { count:1 } }, true );
 
 ##Removing
 *  db.things.remove({}); //remove everything
@@ -82,8 +81,8 @@ Working with Mongo and Java
 *  db.location.ensureIndex( {position: "2d"} )
 *  private double[] position;
 *  Add to repository
-**  List<Location> findByPositionWithin(Circle c);
-**  List<Location> findByPositionWithin(Box b);
+        List<Location> findByPositionWithin(Circle c);
+        List<Location> findByPositionWithin(Box b);
 
 ##Updating
 *  full update
