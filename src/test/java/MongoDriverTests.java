@@ -35,7 +35,7 @@ public class MongoDriverTests {
 
     private DB connect() throws UnknownHostException
     {
-        //        Mongo m = new Mongo();
+//        Mongo m = new Mongo();
 // or
 //        Mongo m = new Mongo( "localhost");
 // or
